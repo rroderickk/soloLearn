@@ -1,5 +1,5 @@
 ((e) => console.log(e))("Empecemos!");
-// try {//**%"$#%"$#%"#$%"#%"#&%#"%$"!#"s*/
+try {//**%"$#%"$#%"#$%"#%"#&%#"%$"!#"s*/
 
 //! Instanciar()=====> Detalles personalizados === Hackear una clase;
 
@@ -323,6 +323,7 @@ const Poo = new Course({
     clasePooECMAScript6.play(),
     clasePooECMAScript6.pause(),
   ],
+  isFree: false,
   isFreeTag: 'Free-Trial',
   lang: 'English',
 });
@@ -384,7 +385,7 @@ const Juan2 = new FreeStudent({
   ],
 });
 Juan2.approveCourse(Poo);
-console.log(Juan1.approveCourse(Poo));
+Juan1.approveCourse(Poo);
 
 //!╔═╗┌┐┌┌─┐┌─┐┌─┐┌─┐┬ ┬╦  ┌─┐┌─┐┬┌─┐┌┐┌
 //!║╣ ││││  ├─┤├─┘└─┐│ │║  ├─┤│  ││ ││││
@@ -544,6 +545,6 @@ console.log(Juan1.approveCourse(Poo));
 
 
 
-// } catch (error) {
-// 	console.error(error.stack, "\n[*] " + error.name, "\n[*] " + error.message);
-// }
+} catch (error) {
+	console.error(error.stack, "\n[*] " + error.name, "\n[*] " + error.message);
+}
